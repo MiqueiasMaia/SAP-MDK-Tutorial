@@ -1,4 +1,16 @@
 {
+	"ActionBar": {
+		"Items": [
+			{
+				"IsIconCircular": false,
+				"OnPress": "/DemoSampleApp/Actions/NavToCustomers_Edit.action",
+				"Position": "right",
+				"SystemItem": "Edit",
+				"Text": "Item",
+				"Visible": true
+			}
+		]
+	},
 	"Caption": "Customer Detail",
 	"Controls": [
 		{
