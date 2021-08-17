@@ -1,0 +1,63 @@
+{
+	"Caption": "Customer Detail",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"BodyText": "{DateOfBirth}",
+						"Description": "{CustomerId}",
+						"DetailImage": "sap-icon://customer",
+						"DetailImageIsCircular": false,
+						"Footnote": "{EmailAddress}",
+						"HeadlineText": "{LastName}",
+						"StatusText": "{PhoneNumber}",
+						"Subhead": "{FirstName}",
+						"SubstatusText": "Substatus"
+					},
+					"Visible": true,
+					"_Name": "SectionObjectHeader0",
+					"_Type": "Section.Type.ObjectHeader"
+				},
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"KeyAndValues": [
+						{
+							"KeyName": "Address",
+							"Value": "{HouseNumber} {Street}",
+							"Visible": true
+						},
+						{
+							"KeyName": "City",
+							"Value": "{Street}",
+							"Visible": true
+						},
+						{
+							"KeyName": "Postal Code",
+							"Value": "{PostalCode}",
+							"Visible": true
+						},
+						{
+							"KeyName": "Country",
+							"Value": "{Country}",
+							"Visible": true
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 2
+					},
+					"MaxItemCount": 1,
+					"Visible": true,
+					"_Name": "SectionKeyValue0",
+					"_Type": "Section.Type.KeyValue"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "Customers_Detail",
+	"_Type": "Page"
+}

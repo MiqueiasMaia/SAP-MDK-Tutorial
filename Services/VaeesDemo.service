@@ -1,0 +1,7 @@
+{
+	"DestinationName": "SampleServiceV2",
+	"LanguageURLParam": "sap-language",
+	"OfflineEnabled": true,
+	"RestService": false,
+	"SourceType": "Mobile"
+}
